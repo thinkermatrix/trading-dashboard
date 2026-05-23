@@ -9,7 +9,7 @@ st.set_page_config(page_title="Trading AI Agent", layout="wide")
 st.title("🤖 Trading AI Agent Dashboard")
 
 # ---- URL of your log file (we'll use a public sample for now) ----
-LOGS_URL = "https://raw.githubusercontent.com/thinkermatrix/trading-agent-logs/main/logs.csv"
+LOGS_URL = "https://raw.githubusercontent.com/thinkermatrix/trading-ai-agent-logs/refs/heads/main/logs.csv"
 # Replace with your own when ready
 
 @st.cache_data(ttl=30)
